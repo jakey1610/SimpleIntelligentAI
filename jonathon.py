@@ -18,6 +18,7 @@ def info():
                                 if question == rec[REC_Q]:
                                         answer = rec[REC_A]
                                         print(answer)
+                                        quit()
       
 
                         try:
@@ -31,6 +32,7 @@ def info():
                                 
                                 myfile.write(question + "," + definition + "\n")
                                 myfile.close()
+                                quit()
                         
 
 
